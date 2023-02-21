@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".next">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_name_is"
+        android:textSize="30sp"
+        android:id="@+id/tvNameU"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNameUR"
+        android:layout_below="@id/tvNameU"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_class_is"
+        android:textSize="30sp"
+        android:id="@+id/tvclassU"
+        android:layout_below="@id/tvNameUR"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvClassUR"
+        android:layout_below="@id/tvclassU"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvaboutU"
+        android:text="@string/your_about_is"
+        android:textSize="30sp"
+        android:layout_below="@id/tvClassUR"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvaboutUR"
+        android:layout_below="@id/tvaboutU"
+
+        />
+
+
+
+</RelativeLayout>

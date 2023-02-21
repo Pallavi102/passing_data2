@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">passing_data2</string>
+    <string name="about_you" />
+    <string name="confrim" />
+    <string name="enter_your_class_name" />
+    <string name="your_about_is" />
+    <string name="your_class_is" />
+    <string name="your_name_is" />
+</resources>
